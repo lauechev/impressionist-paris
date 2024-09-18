@@ -1,0 +1,44 @@
+{
+	"name": "serie_mini",
+	"version": "2.0.0",
+	"private": true,
+	"scripts": {
+		"config": "node serieConfigCli.js",
+		"clear": "node serieRunTasks.js -c",
+		"tasks": "node serieRunTasks.js -c -d",
+		"dev": "node serieRunTasks.js -c -d dev && vite dev",
+		"preview": "vite dev",
+		"update": "node serieRunTasks.js -d",
+		"build": "vite build"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.4",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/eslint": "^9.6.0",
+		"eslint": "^9.0.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.36.0",
+		"globals": "^15.0.0",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.7",
+		"vite": "^5.0.3",
+		"vite-plugin-watch-and-run": "^1.7.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@digital-piranesi/iiif-manifest-library": "^1.1.0",
+		"cli-progress": "^3.12.0",
+		"csv-parser": "^3.0.0",
+		"d3": "^7.9.0",
+		"edit-json-file": "^1.8.0",
+		"front-matter": "^4.0.2",
+		"inquirer": "^10.1.8",
+		"lunr": "^2.3.9",
+		"mdsvex": "^0.12.3",
+		"openseadragon": "^5.0.0",
+		"sharp": "^0.33.5"
+	}
+}

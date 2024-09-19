@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2024-09-18T18:37:50.186596-05" version="8.15.3">
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2024-09-18T19:45:53.054133-05" version="8.15.3">
   <properties>
     <property>
       <name>width</name>
-      <value type="gint">1448</value>
+      <value type="gint">980</value>
     </property>
     <property>
       <name>height</name>
-      <value type="gint">1199</value>
+      <value type="gint">1198</value>
     </property>
     <property>
       <name>bands</name>
@@ -32,10 +32,6 @@
     <property>
       <name>vips-loader</name>
       <value type="VipsRefString">jpegload</value>
-    </property>
-    <property>
-      <name>resolution-unit</name>
-      <value type="VipsRefString">in</value>
     </property>
     <property>
       <name>jpeg-multiscan</name>

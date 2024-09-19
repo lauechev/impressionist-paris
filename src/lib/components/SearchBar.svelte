@@ -98,6 +98,7 @@
     border: none;
     border-bottom: 1px solid var(--stroke);
     background: var(--fill);
+    background-color: #e6e279 ;
   }
 
   .search-bar:focus {

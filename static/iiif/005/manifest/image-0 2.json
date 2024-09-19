@@ -1,0 +1,15 @@
+{
+  "id": "https://lauechev.github.io/impressionist-paris/iiif/005/manifest/image-0.json",
+  "items": [],
+  "type": "Annotation",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "motivation": "painting",
+  "target": "https://lauechev.github.io/impressionist-paris/iiif/005/manifest/canvas-0.json",
+  "body": {
+    "id": "https://lauechev.github.io/impressionist-paris/iiif/005/0/full/max/0/default.jpg",
+    "type": "Image",
+    "format": "image/jpeg",
+    "height": 1199,
+    "width": 1448
+  }
+}

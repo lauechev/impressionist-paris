@@ -23,6 +23,13 @@
 
   .menu-list li {
     list-style-type: none;
-    font-size: 1.2em;
+    font-size: 2em;
+    background-color: #e6e279;
+  }
+
+  .menu-list li:hover {
+    list-style-type: none;
+    font-size: 2em;
+    text-decoration:underline;
   }
 </style>

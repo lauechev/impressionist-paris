@@ -1,20 +1,24 @@
 <svelte:head>
   <style>
       @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap');
   </style>
 </svelte:head>
 
 <slot></slot>
 
+
 <style>
   :global(:root){
-    --stroke: black; /* Font color */
-    --fill: #fdfcfa; /* Background color */
-    --accent1: #c9e2ef; /* Main color */
-    --accent2: #0b456c; /* Higlights color */
-    --mainfont: "Lato", sans-serif;
-    --headerfont: "Lato", sans-serif;
+    --stroke: #924b12; /* Font color */
+    --fill: #f9f4eb; /* Background color */
+    --accent1: #94b6ef; /* Main color */
+    --accent2: #924b12; /* Higlights color */
+    --mainfont: "Barlow Condensed", sans-serif;
+    --headerfont: "Quattrocento", serif;
     font-family: var(--mainfont);
+ 
   }
 
   :global(body) {
@@ -69,6 +73,7 @@
   :global(.default-button:hover) {
     color: var(--accent2);
     background: var(--fill);
+  
   }
 
   :global(.default-button:active) {

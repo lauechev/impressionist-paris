@@ -13,4 +13,4 @@ layout: page
 Usa los componentes interactivos para explorar los ítems de la colección:
 
 <SearchBar />
-<Gallery filters={["label", "autor"]}/>
+<Gallery filters={["artist "]}/>

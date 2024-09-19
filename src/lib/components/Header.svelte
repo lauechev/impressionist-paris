@@ -26,8 +26,18 @@
     font-size: 5em;
     padding: 0;
     margin: 0;
+  
   }
+  
 
+  .main-title:hover{
+    max-width: 600px;
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+    text-decoration: #e6e279 underline;
+  
+  }
   .main-header {
     display: flex;
     padding: 1em;

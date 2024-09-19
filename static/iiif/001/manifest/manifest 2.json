@@ -1,0 +1,42 @@
+{
+  "id": "https://lauechev.github.io/impressionist-paris/iiif/001/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "Le Quai Saint-Michel et Notre Dame"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://lauechev.github.io/impressionist-paris/iiif/001/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://lauechev.github.io/impressionist-paris/iiif/001/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://lauechev.github.io/impressionist-paris/iiif/001/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://lauechev.github.io/impressionist-paris/iiif/001/manifest/canvas-0.json",
+              "body": {
+                "id": "https://lauechev.github.io/impressionist-paris/iiif/001/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1198,
+                "width": 980
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 980,
+      "height": 1198,
+      "annotations": []
+    }
+  ]
+}

@@ -1,5 +1,6 @@
-pid,label,autor,fecha
-AdriaenCollaert,America Tortuga,Adriaen Collaert,1586
-JohannSadeler,America Loro,Johann Sadeler,1581
-PhilipsGalle,America Composición,Philips Galle,1547
-PhilipsGalle2,America Cabeza,Philips Galle,1585
+pid,label,artist ,year,medium,country
+001,Le Quai Saint-Michel et Notre Dame,Maxime Luce,1901,Oil on canvas,France
+002,La Gare Saint-Lazare,Claude Monet,1877,Oil on canvas,France
+003,"Rue Halévy, vue d'un sixième étage",Gustave Caillebotte,1878,Oil on canvas,France
+004,"Pont Neuf, Paris",Pierre-Auguste Renoir,1872,Oil on canvas,France
+005,"Boulevard Montmartre, Effet de nuit",Camille Pisarro,1897,Oil on canvas,France

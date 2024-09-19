@@ -1,38 +1,37 @@
 const config = {
-  "lang": "es",
+  "lang": "en",
   "localPort": "5173",
-  "base": "https://srsergiorodriguez.github.io",
-  "baseurl": "/serie-mini",
-  "title": "Serie Mini",
-  "subtitle": "Un sistema para mini colecciones digitales",
-  "credits": "Por Sergio Rodríguez Gómez",
-  "copyright": "Todos los derechos reservados, 2024",
-  "logos": [
-    {img: "logos/logo.png", link: "https://github.com/srsergiorodriguez/serie-mini"}
-  ],
+  "base": "https://lauechev.github.io",
+  "baseurl": "/impressionist-paris",
+  "title": "Impressionist Paris",
+  "subtitle": "A digital collection",
+  "credits": "By Laura Echeverri",
+  "copyright": "All rights reserved,2024",
   "pages": {
     "iiifViewer": true,
     "metadataToShow": [
       {
-        "key": "label",
-        "label": "Nombre",
+        "key": "artist ",
+        "label": "Artist ",
         "type": "text"
       },
       {
-        "key": "autor",
-        "label": "Autor",
+        "key": "year",
+        "label": "Year",
         "type": "text"
       },
       {
-        "key": "fecha",
-        "label": "Fecha",
+        "key": "medium",
+        "label": "Medium",
         "type": "text"
       }
     ],
     "metadataToIndex": [
       "label",
-      "autor",
-      "fecha"
+      "artist ",
+      "year",
+      "medium",
+      "country"
     ]
   }
 };

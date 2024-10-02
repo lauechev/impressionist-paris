@@ -11,13 +11,12 @@ layout: page
   import VizTree from '$components/VizTree.svelte';
 </script>
 
-# Recorrido por la colección
+# Tour of the colecction
 
-Esta colección de muestra recopila varias imágenes con representaciones alegóricas de América tomadas de [Rijksstudio](https://www.rijksmuseum.nl/en), la colección digital del Rijks Museum de Países Bajos. Todas las imágenes usadas están en el dominio público.
+This sample collection gathers several images with  representations of Paris taken from Google Art, Google's digital art collection. All images used are in the public domain.
 
-Usa este archivo para incluir contenido que permita hacer un recorrido por la colección.
+Use this file to include content that enables a tour of the collection.
 
-Para poner una imagen correspondiente a un ítem de la colección en este recorrido, usa el componente ItemPreview: 
 
 `<ItemPreview pid="PID" title="TÍTULO" alt="TEXTO ALTERNATIVO" page="PÁGINA DEL ÍTEM (opcional)">`
 
@@ -25,32 +24,19 @@ Así se mostrará una imagen que, si se cliquea, te llevará al elemento de la c
 
 Así:
 
-<ItemPreview pid="AdriaenCollaert" title="Por Adriaen Collaert" />
+<ItemPreview pid="001" title="Le Quai Saint-Michel et Notre Dame" />
 
 También puedes usar urls de imágenes externas con normalidad en el formato Markdown.
 
-## Elementos interactivos
+## Interactive Elements
 
-## Gráfico de barras
 
-`<VizBarChart key="columna con valor categórico" top="numero de barras con mayor conteo (opcional, por defecto 10)/>`
+## Hierarchical tree
 
-<VizBarChart key="autor"/>
 
-## Histograma
+<VizTree keys={["artist ", "label"]}/>
 
-`<VizBarChart key="columna con valor numérico" />`
+## Timeline
 
-<VizHistogram key="fecha"/>
 
-## Árbol jerárquico
-
-`<VizTree key="Array con columnas con valores categóricos" metadata="metadatos prefiltrados (opcional)"/>`
-
-<VizTree keys={["autor", "label"]}/>
-
-## Línea de tiempo
-
-`<VizTimeline dateKey="columna con fecha" metadata="metadatos prefiltrados (opcional)">`
-
-<VizTimeline dateKey="fecha"/>
+<VizTimeline dateKey="year"/>

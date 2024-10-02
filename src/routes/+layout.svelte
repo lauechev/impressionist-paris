@@ -123,4 +123,6 @@
   :global(.reset-button img) {
     height: 1.2rem;
   }
+
+  
 </style>

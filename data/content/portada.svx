@@ -3,15 +3,25 @@ name: home
 layout: home
 ---
 
-# Introducción
+# About
 
-Esta es una plantilla para la creación de colecciones culturales digitales basada en Svelte.
+Welcome to *Impressionist Paris*, your gateway to the vibrant world of Impressionism! Our site celebrates the revolutionary artists who transformed the art scene in 19th-century Paris. From Monet's delicate brushstrokes to Renoir's lively scenes, we explore the lives, inspirations, and techniques of these iconic figures.
 
-Es similar a otros sistemas de computación mínima, como [Wax](https://minicomp.github.io/wax/) o [Collection Builder](https://collectionbuilder.github.io/), pero tiene como fin ser una herramienta educativa para las humanidades digitales acerca de conceptos esenciales relacionados con colecciones digitales (metadatos, ítems, protocolos, narrativas).
+ Dive into their stories, discover the locations that sparked their creativity, and experience the beauty of Impressionism through a curated gallery. Join us as we journey through the enchanting streets of Paris, where art and innovation blossomed in the light of a new era.
 
-En particular, Serie Mini tiene las siguientes características:
+## What is Impressionism?
 
-- Interfaz en español
-- Es fácil de instalar (El código está basado en Svelte, no en Jekyll. No requiere contentedores de Docker)
-- Es fácil de usar (Tiene una interfaz CLI que guía en el proceso de configuración y todos los elementos de la colección se disponen en una carpeta particular)
-- Es fácil de publicar en Github Pages por defecto
+Impressionism was a revolutionary art movement that emerged in France during the late 19th century, characterized by its focus on capturing fleeting moments and the effects of light and color. Breaking away from the rigid structures of academic painting, Impressionist artists like Claude Monet, Pierre-Auguste Renoir, and Edgar Degas emphasized spontaneity and sought to depict scenes of everyday life, landscapes, and urban environments with loose brushstrokes and vibrant colors.
+
+ Rather than aiming for exact detail, they prioritized the sensory experience of a scene, often painting outdoors to catch natural light. This movement not only transformed the art world but also paved the way for modernist approaches, influencing generations of artists to come.
+
+
+ <img class= "foto-home" src="https://www.dailyartmagazine.com/wp-content/uploads/2021/08/impressionscollage1-1-scaled-1-1536x864.jpg" width = "500"/>
+ 
+
+
+
+
+
+
+

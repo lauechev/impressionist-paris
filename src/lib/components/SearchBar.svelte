@@ -104,8 +104,12 @@
   .search-bar:focus {
     border: none;
     border-bottom: var(--accent2) 4px solid;
-    outline: 0px solid #000;
+    outline: 0px solid #924b12;
   }
+
+  .search-bar:focus, input:focus {
+    color: #94b6ef;
+}
 
   .resultsList-preview {
     display: grid;

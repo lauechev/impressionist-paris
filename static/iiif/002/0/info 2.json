@@ -1,18 +1,17 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "http://localhost:5173/impressionist-paris/iiif/003/0",
+  "id": "https://lauechev.github.io/impressionist-paris/iiif/002/0",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",
   "tiles": [
     {
       "scaleFactors": [
-        1,
-        2
+        1
       ],
       "width": 512
     }
   ],
-  "width": 1470,
-  "height": 1199
+  "width": 672,
+  "height": 500
 }

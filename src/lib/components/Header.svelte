@@ -23,16 +23,18 @@
 
   .main-title {
     max-width: 600px;
-    font-size: 5em;
+    font-size: 4em;
     padding: 0;
     margin: 0;
   
   }
-  
+  .main-subtitle{
+    font-size: 2.5em;
+    margin-left: 3em;
+  }
 
   .main-title:hover{
     max-width: 600px;
-    font-size: 5em;
     padding: 0;
     margin: 0;
     text-decoration: #e6e279 underline;
@@ -40,13 +42,14 @@
   }
   .main-header {
     display: flex;
-    padding: 1em;
+    padding: 1.5em;
     justify-content: space-around;
     align-items: end;
     background: var(--accent1);
     border: solid 1px var(--accent1);
     min-height: 200px;
     flex-direction: row;
+    
   }
 
   @media screen and (max-width: 800px) {

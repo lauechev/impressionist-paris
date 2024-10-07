@@ -9,17 +9,17 @@ layout: page
 
 # Metadata
 
-En esta sección se encuentran los metadatos de la colección. Pueden descargarse y usarse libremente.
-
+In this section you will find the metadata of the collection. They can be downloaded and used freely.
 ## Protocol
 
-Este es el protocolo que especifica la construcción de los datos de la colección:
+This is the protocol that specifies the construction of the collection data:
 
 | Data   | Description                                                                  |  Type      |
 |---     |---                                                                              |---         |
 | pid    | Unique identifier.                                                            | categorical |
 | label  | Name of the painting.                                | categorical |
-| artist  | Artist of the painting.                   | categórico |
+| artist  | Artist of the painting.                   | categorical |
 | year  | Approximate year of the artwork's production. Written in full number (ex. 1589). | ordinal    |
-
+| medium  | Materials used to make work of art.| categorical |
+| country  | The artist's nationality.| categorical |
 <MetadataTable />

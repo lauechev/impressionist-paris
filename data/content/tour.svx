@@ -15,18 +15,6 @@ layout: page
 
 This sample collection gathers several images with  representations of Paris taken from Google Art, Google's digital art collection. All images used are in the public domain.
 
-Use this file to include content that enables a tour of the collection.
-
-
-`<ItemPreview pid="PID" title="TÍTULO" alt="TEXTO ALTERNATIVO" page="PÁGINA DEL ÍTEM (opcional)">`
-
-Así se mostrará una imagen que, si se cliquea, te llevará al elemento de la colección correspondiente.
-
-Así:
-
-<ItemPreview pid="001" title="Le Quai Saint-Michel et Notre Dame" />
-
-También puedes usar urls de imágenes externas con normalidad en el formato Markdown.
 
 ## Interactive Elements
 

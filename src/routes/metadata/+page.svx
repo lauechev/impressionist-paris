@@ -18,7 +18,7 @@ Este es el protocolo que especifica la construcción de los datos de la colecci�
 | Data   | Description                                                                  |  Type      |
 |---     |---                                                                              |---         |
 | pid    | Unique identifier.                                                            | categorical |
-| label  | Name of the painting                                  | categorical |
+| label  | Name of the painting.                                | categorical |
 | artist  | Artist of the painting.                   | categórico |
 | year  | Approximate year of the artwork's production. Written in full number (ex. 1589). | ordinal    |
 

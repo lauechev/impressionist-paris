@@ -10,6 +10,7 @@ layout: page
 # Metadata
 
 In this section you will find the metadata of the collection. They can be downloaded and used freely.
+
 ## Protocol
 
 This is the protocol that specifies the construction of the collection data:

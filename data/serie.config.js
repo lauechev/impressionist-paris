@@ -11,8 +11,8 @@ const config = {
     "iiifViewer": true,
     "metadataToShow": [
       {
-        "key": "artist ",
-        "label": "Artist ",
+        "key": "artist",
+        "label": "Artist",
         "type": "text"
       },
       {
@@ -24,6 +24,27 @@ const config = {
         "key": "medium",
         "label": "Medium",
         "type": "text"
+      },
+      {
+        "key": "country",
+        "label": "Country",
+        "type": "text"
+      },
+      {
+        "key": "arrondissement",
+        "label": "Arrondissement",
+        "type": "text"
+      },
+      {
+        "key": "collection",
+        "label": "Collection",
+        "type": "text"
+      }
+      ,
+      {
+        "key": "location",
+        "label": "Location",
+        "type": "text"
       }
     ],
     "metadataToIndex": [
@@ -31,7 +52,11 @@ const config = {
       "artist ",
       "year",
       "medium",
-      "country"
+      "country",
+      "arrondissement",
+      "collection",
+      "location"
+      
     ]
   }
 };

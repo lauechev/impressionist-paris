@@ -15,4 +15,4 @@ Use the interactive components to explore the items in the collection:
 
 
 <SearchBar />
-<Gallery filters={["artist "]}/>
+<Gallery filters={["artist","collection","year"]}/>

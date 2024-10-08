@@ -22,7 +22,7 @@ This sample collection gathers several images with  representations of Paris tak
 ## Hierarchical tree
 
 
-<VizTree keys={["artist ", "label"]}/>
+<VizTree keys={["collection","artist", "label"]}/>
 
 ## Timeline
 

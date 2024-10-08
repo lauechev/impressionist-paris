@@ -16,7 +16,7 @@ Impressionism was a revolutionary art movement that emerged in France during the
  Rather than aiming for exact detail, they prioritized the sensory experience of a scene, often painting outdoors to catch natural light. This movement not only transformed the art world but also paved the way for modernist approaches, influencing generations of artists to come.
 
 
- <img class= "foto-home" src="https://www.dailyartmagazine.com/wp-content/uploads/2021/08/impressionscollage1-1-scaled-1-1536x864.jpg" width = "500"/>
+ <img class= "foto-home" alt = "collage-impresionismo" src="https://www.dailyartmagazine.com/wp-content/uploads/2021/08/impressionscollage1-1-scaled-1-1536x864.jpg" width = "500"/>
  
 
 

@@ -1,6 +1,6 @@
-pid,label,artist ,year,medium,country
-001,Le Quai Saint-Michel et Notre Dame,Maxime Luce,1901,Oil on canvas,France
-002,La Gare Saint-Lazare,Claude Monet,1877,Oil on canvas,France
-003,"Rue Halévy, vue d'un sixième étage",Gustave Caillebotte,1878,Oil on canvas,France
-004,"Pont Neuf, Paris",Pierre-Auguste Renoir,1872,Oil on canvas,France
-005,"Boulevard Montmartre, Effet de nuit",Camille Pisarro,1897,Oil on canvas,France
+pid,label,artist,year,medium,country,arrondissement,collection,location
+001,Le Quai Saint-Michel et Notre Dame,Maximillien Luce,1901,Oil on canvas,France,5th,Musée d'Orsay,Paris
+002,La Gare Saint-Lazare,Claude Monet,1877,Oil on canvas,France,8th,Musée d'Orsay,Paris
+003,"Rue Halévy, vue d'un sixième étage",Gustave Caillebotte,1878,Oil on canvas,France,9th,Museum Barberini,Postdam
+004,"Pont Neuf, Paris",Pierre-Auguste Renoir,1872,Oil on canvas,France,1st,National Gallery of Art,Washington D.C.
+005,"Boulevard Montmartre, Effet de nuit",Camille Pisarro,1897,Oil on canvas,France,2nd,National Gallery,London

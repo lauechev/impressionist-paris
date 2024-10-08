@@ -25,5 +25,5 @@ This is the protocol that specifies the construction of the collection data:
 | country  | The artist's nationality.| categorical |
 | arrondissement  | The arrondissement or neighboorhood where the painting is set in Paris.| ordinal |
 | collection  | The collection or museum where the painting is currently held..| categorical |
-| location  |  The city and country where the collection is located.| categorical |
+| location  |  The city where the collection is located.| categorical |
 <MetadataTable />
